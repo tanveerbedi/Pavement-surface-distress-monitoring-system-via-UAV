@@ -48,8 +48,7 @@ UAVpotholes/
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/UAVpotholes.git
-cd UAVpotholes
+git clone https://github.com/tanveerbedi/Pavement-surface-distress-monitoring-system-via-UAV
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
