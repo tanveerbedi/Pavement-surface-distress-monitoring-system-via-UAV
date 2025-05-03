@@ -28,17 +28,19 @@ This project focuses on the development of a **Pavement Surface Distress Monitor
 
 ```
 UAVpotholes/
-├── app.py                   # Main app logic
-├── areaEstimation.py        # Area calculation script
-├── best.pt                  # Trained YOLOv8 model weights
-├── detect.py                # Detection script using YOLOv8
-├── requirements.txt         # Python dependencies
-├── train.py                 # Training script
-├── test.yaml                # Testing configuration
-├── web_app.py               # Web interface script
-├── output/                  # Output image with detections
-├── venv/                    # Virtual environment (not included in version control)
-├── install.sh / run.sh      # Setup and execution scripts
+├── best.pt                     # Trained YOLOv8 model weights
+├── detect.py                   # Script to run detection on input images
+├── train.py                    # Training script
+├── areaEstimation.py          # Area calculation logic for potholes
+├── web_app.py                  # Flask web app backend
+├── app.py                      # Entry point for web interface
+├── requirements.txt            # Python dependencies
+├── install.sh / run.sh         # Setup and execution shell scripts
+├── groundOnly_pothole.yaml    # Dataset config for training
+├── test.yaml                   # Test dataset config
+├── output/                     # Output results from detection
+├── torch_test.py              # Torch environment test
+├── yolov_experiment.py        # YOLOv8 experiment configuration
 ```
 
 ---
