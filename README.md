@@ -117,4 +117,3 @@ MIT License. See [LICENSE](LICENSE) for more details.
 ## Acknowledgements
 
 This project is part of the capstone requirement for B.E. Computer Engineering at **Thapar Institute of Engineering & Technology**.
-Special thanks to the UAV research team and faculty mentors for their support.
