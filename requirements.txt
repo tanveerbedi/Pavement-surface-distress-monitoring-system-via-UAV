@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+matplotlib
+streamlit
+Pillow
+torch
+opencv-python-headless

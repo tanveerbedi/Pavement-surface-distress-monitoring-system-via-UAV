@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Output images and files
+output/
+
+# Logs
+*.log
+
+# Python package stuff
+build/
+dist/
+*.egg-info/
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Shell script backup files
+*.sh~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.hypothesis/
+
+# Environment variables
+.env
+.env.*
+
+# Database files (if any)
+*.sqlite3
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.swo
